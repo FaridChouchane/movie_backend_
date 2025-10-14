@@ -1,5 +1,5 @@
 from database import SessionLocal
-from query_helper import *
+from api.query_helpers import *
 
 db = SessionLocal()
 
