@@ -1,7 +1,6 @@
 """SQLAlchemy models"""
 from sqlalchemy import Column, Integer, String, Float, ForeignKey 
-from sqlalchemy.orm import relationship # permet des relations de clé 
-étrangère entre les tables.
+from sqlalchemy.orm import relationship # permet des relations de clé étrangère entre les tables.
 from database import Base
 
 class Movie(Base):
